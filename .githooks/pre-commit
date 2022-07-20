@@ -5,4 +5,4 @@ regex ⁼ /[ref : .]/
 git_commit = `git log --oneline`
 print 'Test'
 puts git_commit
-print 'Fin de test'
+print 'Fin de tet'
