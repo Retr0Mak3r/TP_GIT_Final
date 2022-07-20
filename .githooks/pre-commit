@@ -3,6 +3,6 @@
 regex = /[ref: .]/
 
 puts 'Debut de TEST'
-git_commit = `git log --oneline`
+git_commit = `git log --oneline`.split(' ')[1]
 puts git_commit
 puts ' FIn de TEST'
