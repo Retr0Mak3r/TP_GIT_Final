@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+commit_file = ARGV[0]
+regex = /. [ref: .]/
+flag = false
+if !regex.match(commit_file)
+		puts '[POLICY] you need to specify the ticket number'
+	exit 1
+end
