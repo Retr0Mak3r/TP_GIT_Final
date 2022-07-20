@@ -1,0 +1,11 @@
+.square-container { dipslay: table }
+ 
+.square-container .square {
+    display: inline-table;
+    width: 100px;
+    height: 100px;
+    background-color: #FF2515;
+    margin-left: 300px;
+    margin-top:20%;
+    margin-bottom: 20%;
+}
