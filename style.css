@@ -16,4 +16,6 @@ a{
 }
 footer{
     background-color: rgb(246, 206, 8);
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
