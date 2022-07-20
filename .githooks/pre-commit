@@ -2,5 +2,5 @@
 
 regex ⁼ /[ref : .]/
 
-git_commit = `git log --oneline`.split(' ')[2]
+git_commit = `git log --oneline`
 puts git_commit
