@@ -1,0 +1,8 @@
+.square-container { dipslay: table }
+ 
+.square-container .square {
+    display: inline-table;
+    width: 100px;
+    height: 100px;
+
+}
