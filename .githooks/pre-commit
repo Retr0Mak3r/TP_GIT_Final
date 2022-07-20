@@ -1,8 +1,8 @@
 #!/usr/local/env ruby
 
-regex ⁼ /[ref : .]/
+regex = /[ref: .]/
 
+puts 'Debut de TEST'
 git_commit = `git log --oneline`
-puts 'Test'
 puts git_commit
-puts 'Fin de tet'
+puts ' FIn de TEST'
