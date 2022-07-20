@@ -1,0 +1,6 @@
+#!/usr/local/env ruby
+
+regex ⁼ /[ref : .]/
+
+git_commit = `git log --oneline`.split(' ')[2]
+puts git_commit
